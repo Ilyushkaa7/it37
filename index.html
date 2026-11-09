@@ -4,6 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>айти37</title>
+    <style>
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: #f3f5fb;
+        font-family: system-ui, sans-serif;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        min-height: clamp(7rem, 18vw, 11rem);
+        padding: 1.5rem clamp(1.5rem, 7vw, 6rem);
+        color: #fff;
+        background:
+          repeating-linear-gradient(90deg, transparent 0 39px, #ffffff0c 39px 40px),
+          repeating-linear-gradient(0deg, transparent 0 39px, #ffffff0c 39px 40px),
+          linear-gradient(110deg, #10172e 20%, #282c68 72%, #41479d);
+        border-bottom: 1px solid #555cbd;
+      }
+
+      h1 {
+        display: flex;
+        align-items: center;
+        gap: 0.35em;
+        margin: 0;
+        font-size: clamp(2.25rem, 6vw, 4rem);
+        font-weight: 800;
+        letter-spacing: -0.045em;
+        line-height: 1;
+      }
+
+      h1::before {
+        content: "";
+        width: 0.18em;
+        height: 0.72em;
+        border-radius: 0.12em;
+        background: #a3f1d6;
+      }
+    </style>
   </head>
   <body>
     <header>
